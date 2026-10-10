@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGST - Relativistic Generative Spacetime</title>
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #4a4a4a;
+            --accent: #d97757;
+            --bg: #f9f9f9;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--primary);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 2rem 10%;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .hero {
+            padding: 6rem 10%;
+            background-color: var(--primary);
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #ccc;
+            max-width: 800px;
+            margin: 0 auto 2rem auto;
+        }
+        .section {
+            padding: 5rem 10%;
+            background-color: #fff;
+        }
+        .section:nth-child(even) {
+            background-color: var(--bg);
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: var(--primary);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #eee;
+        }
+        .card h3 {
+            color: var(--accent);
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 3rem 10%;
+            background-color: var(--primary);
+            color: #fff;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">RGST Research</div>
+        <nav>
+            <a href="#about" style="margin-left: 20px; color: var(--primary);">Research</a>
+            <a href="#infrastructure" style="margin-left: 20px; color: var(--primary);">Infrastructure</a>
+            <a href="#contact" style="margin-left: 20px; color: var(--primary);">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Relativistic Generative Spacetime</h1>
+        <p>探索宇宙運作的新維度。致力於透過前沿的大型語言模型 (LLMs) 與先進算力，重新建構與驗證理論物理模型。</p>
+    </div>
+
+    <div id="about" class="section">
+        <h2>研究核心與驗證</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>理論物理模型</h3>
+                <p>我們專注於<b>相對生成時空 (RGST)</b> 的獨立研究與開發。這是一個旨在解釋複雜宇宙動力學的新型理論框架，挑戰並擴展傳統物理學的邊界。</p>
+            </div>
+            <div class="card">
+                <h3>SPARC 基準測試</h3>
+                <p>為了確保理論的嚴謹性，RGST 模型已採用 <b>SPARC (Spitzer Photometry and Accurate Rotation Curves)</b> 星系自轉曲線資料集進行基準測試，透過實際的天文觀測數據來驗證理論的準確度。</p>
+            </div>
+            <div class="card">
+                <h3>開放科學與發表</h3>
+                <p>我們堅信科學研究應具備透明度與可重現性。RGST 相關的研究文獻、數據與模擬成果均已公開發表於 <b>Zenodo</b> 平台，供全球學術社群檢視與交流。</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="infrastructure" class="section">
+        <h2>AI 與基礎設施應用</h2>
+        <p style="max-width: 800px; font-size: 1.1rem; margin-bottom: 2rem;">
+            作為現代的物理學研究機構，我們深度依賴人工智慧來加速研究進程。在申請 <b>Claude for Startups</b> 的路線圖中，我們計畫將 Claude 整合至以下研究工作流：
+        </p>
+        <div class="grid">
+            <div class="card">
+                <h3>LLM 驅動的理論推導</h3>
+                <p>利用 Claude 優異的長文本與邏輯推理能力，協助分析龐大的天文學文獻、交叉比對 SPARC 數據特徵，並輔助推導複雜的時空張量方程式。</p>
+            </div>
+            <div class="card">
+                <h3>高效能節點與部署</h3>
+                <p>研究環境結合了去中心化與高效能運算基礎設施（如 Chainstack），確保在處理海量星系自轉數據時，擁有穩定且可擴展的運算環境。</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>聯絡與團隊</h2>
+        <p><b>Founder & Lead Researcher:</b> 吳聖科 (Sheng-Ke Wu)</p>
+        <p>身為獨立物理學研究者，我致力於運用最新的 AI 科技來突破理論物理的瓶頸。</p>
+        <p><b>Contact:</b> <a href="mailto:founder@rgst.in">founder@rgst.in</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 RGST Research. All rights reserved.</p>
+        <p style="font-size: 0.9rem; color: #888;">Empowering Theoretical Physics with Artificial Intelligence.</p>
+    </footer>
+
+</body>
+</html>
